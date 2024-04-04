@@ -1,0 +1,168 @@
+*{
+margin : 0;
+padding : 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{ 
+background-color: yellow;
+text-align: center;
+justify-content: center;
+font-size: larger;
+font-weight: 800;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header{
+text-justify: center;
+}
+
+header
+p{
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: larger;
+padding: 10px;
+font-weight: 900;
+} 
+
+.interjection {
+background-color: lightskyblue;
+padding: 10px;
+display: flex;
+flex-direction: column;
+}
+
+.interjection p {
+color: white;  
+}
+
+div{
+display: flex;
+flex-direction: column;
+justify-content: space-between;  
+background-color: yellow;
+}
+    
+header img{
+width: 100%;
+vertical-align: bottom; /* pour éviter l'écart entre l'image header et blocs bas */
+}
+
+#wrapper{
+padding : 0 15%;
+}
+
+
+p{
+justify-content: center;
+}
+
+content wrapper{
+display: flex;
+justify-content: space-around;
+}
+    
+main{
+display: flex;                    /* fait s'aligner son contenu DIRECT (enfants de premier niveau)*/
+background-color: white; 
+align-items: flex-start;       
+}
+
+h1{ 
+padding-bottom: 30px;
+justify-content: center;
+font-size: larger;
+font-weight: 800;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+nav{
+color: white;
+padding : 30px;
+background-color: lightskyblue;
+float: left;
+text-decoration: underline;
+font-size: medium;
+margin: auto;
+vertical-align: top;
+}
+/* flex-start pour caler le texte en haut */
+
+nav p{
+text-align: center;
+padding: 5px;
+}
+
+nav p {
+white-space: nowrap;
+}
+  
+.box {
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: center;
+background-color: white;
+margin-left: 10px;
+margin-top: 40px;
+}
+
+
+article{ 
+color: black;
+display: flex;
+justify-content: flex-start; 
+background-color: white;
+flex-direction: column;
+padding: 40px 30px;
+font-size: larger;}
+
+article p{
+text-align: justify;
+}
+
+aside figure{ 
+padding: 0 30px;
+}
+
+aside{ 
+color: white;
+padding : 10px 20px;
+background-color: lightskyblue;
+display: flex;
+justify-content: center;
+flex-direction: column;
+float: right;
+margin-right: 20px;
+margin-top: 40px;
+margin-left: 10px;
+margin-bottom: 80px;
+}
+
+aside p{
+text-align: justify;
+}
+
+aside h1{
+text-align: center;
+}
+    
+aside img{
+width: 150px;
+vertical-align: top;
+}
+
+
+footer{ 
+padding: 10px;
+background-color: rgb(77, 135, 201);
+text-align: center;
+justify-content: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer p{
+font-size: larger;
+font-weight: bolder;
+}
