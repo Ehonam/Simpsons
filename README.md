@@ -1,6 +1,5 @@
 EXERCICE SIMPSONS - HTML ET CSS
 
-A REPRODUIRE
 ![s1](https://github.com/Ehonam/Simpsons/assets/164899950/0b0570ed-b5d5-4867-8295-52b5a93ade98)
 
 REPRODUCTION
